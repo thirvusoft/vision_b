@@ -1,0 +1,126 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-06 16:46:21.641129",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sampleid",
+  "instrument",
+  "position",
+  "time",
+  "bloodlevel",
+  "esr",
+  "correctedesr",
+  "minimumtemperature",
+  "maximumtemperature",
+  "israndom",
+  "isunfinished",
+  "isqc",
+  "level",
+  "meanvalue",
+  "offset"
+ ],
+ "fields": [
+  {
+   "fieldname": "sampleid",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "SampleID"
+  },
+  {
+   "fieldname": "instrument",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Instrument"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Position"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Time"
+  },
+  {
+   "fieldname": "bloodlevel",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "BloodLevel"
+  },
+  {
+   "fieldname": "esr",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ESR"
+  },
+  {
+   "fieldname": "correctedesr",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CorrectedESR"
+  },
+  {
+   "fieldname": "minimumtemperature",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "MinimumTemperature"
+  },
+  {
+   "fieldname": "maximumtemperature",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "MaximumTemperature"
+  },
+  {
+   "fieldname": "israndom",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "IsRandom",
+   "options": "\ntrue\nfalse"
+  },
+  {
+   "fieldname": "isunfinished",
+   "fieldtype": "Select",
+   "label": "IsUnfinished",
+   "options": "\ntrue\nfalse"
+  },
+  {
+   "fieldname": "isqc",
+   "fieldtype": "Select",
+   "label": "IsQC",
+   "options": "\ntrue\nfalse"
+  },
+  {
+   "fieldname": "level",
+   "fieldtype": "Data",
+   "label": "Level"
+  },
+  {
+   "fieldname": "meanvalue",
+   "fieldtype": "Data",
+   "label": "MeanValue"
+  },
+  {
+   "fieldname": "offset",
+   "fieldtype": "Data",
+   "label": "Offset"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-07 13:08:26.751709",
+ "modified_by": "Administrator",
+ "module": "vision_b",
+ "name": "Compound Test Result",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
